@@ -7,12 +7,12 @@
         "database": "u875409848_cabanog"
     },
     "secret": "SUPER_SECRET_KEY",
-    "emailform": "cabanogtesting@gmail.com",
+    "emailform": "dumpkoyngiperts@gmail.com",
     "smtpOptions": {
         "service": "gmail",
         "auth": {
-            "user": "cabanogtesting@gmail.com",
-            "pass": "xxzdcmxfhyzbahne"
+            "user": "dumpkoyngiperts@gmail.com",
+            "pass": "lsnwgycdrcyscsdw"
         }
     }
 }
