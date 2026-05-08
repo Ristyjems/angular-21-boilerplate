@@ -1,4 +1,4 @@
-﻿<h1>Accounts</h1>
+<h1>Accounts</h1>
 <p>All accounts from secure (admin only) api end point:</p>
 <a routerLink="add" class="btn btn-sm btn-success mb-2">Create Account</a>
 <table class="table table-striped">
@@ -23,9 +23,14 @@
                 </button>
             </td>
         </tr>
-        <tr *ngIf="!accounts">
+        <tr *ngIf="loading">
             <td colspan="4" class="text-center">
                 <span class="spinner-border spinner-border-lg align-center"></span>
+            </td>
+        </tr>
+        <tr *ngIf="!loading && accounts.length === 0">
+            <td colspan="4" class="text-center text-muted">
+                No accounts found.
             </td>
         </tr>
     </tbody>
